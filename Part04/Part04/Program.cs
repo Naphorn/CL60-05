@@ -9,10 +9,10 @@ public class IfLearning
         {
             Console.WriteLine("execute this line");
         }
-        else
+        if (a < 2)
         {
-            Console.WriteLine("execute another line too");
+            Console.WriteLine("execute this line too");
         }
-        Console.WriteLine("this line is always execute");
+        Console.WriteLine("execute next line");
     }
 }
